@@ -100,25 +100,25 @@ let package = Package(
         .binaryTarget(
             name: "Mobilisten",
             url: "https://raw.githubusercontent.com/zoho/Mobilisten-iOS-Beta/\(mobilisten_version)/Frameworks/Mobilisten.zip",
-            checksum: "14d63e75ab1ee76ecff07f73823b53ca2419620254a78d3b8ffd0276dfa7f726"
+            checksum: "16bdce91ecd86079f3d6604f5ab18c628c3866a7a55ec8a1be9bc90838b2a854"
         ),
         
         .binaryTarget(
             name: "MobilistenCore",
             url: "https://raw.githubusercontent.com/zoho/Mobilisten-iOS-Beta/\(mobilisten_version)/Frameworks/MobilistenCore.zip",
-            checksum: "a5ba42b8f78f38f3fddf1f05e0893286d2967ad68e8dd4dc13d2bde8a900e52b"
+            checksum: "5b519721add4e95ba8877faab8f8a8d972285fa500a538e5e0adae70ca43ac53"
         ),
 
         .binaryTarget(
             name: "MobilistenCallsCore",
             url: "https://raw.githubusercontent.com/zoho/Mobilisten-iOS-Beta/\(mobilisten_version)/Frameworks/MobilistenCallsCore.zip",
-            checksum: "a4a75d2b8849f194465da7978b6d5ae96ed023a08fba556eec3305ef23a27ea2"
+            checksum: "a67beb625b86022592c39c3eff8dc9bcd7f9f34bcb59dfe7c64b651ce5e386fe"
         ),
 
         .binaryTarget(
             name: "AVCallKitBridge",
             url: "https://raw.githubusercontent.com/zoho/Mobilisten-iOS-Beta/\(mobilisten_version)/Frameworks/AVCallKitBridge.zip",
-            checksum: "8a430b068af985ce461d24b12b8758d6c3f4db819d049d2d583b68fe1a52179f"
+            checksum: "6a9dcbbe4706f18e87c67b8d83f2a4941e51f9cde9716d1a86cd445548890b59"
         )
     ]
 )
