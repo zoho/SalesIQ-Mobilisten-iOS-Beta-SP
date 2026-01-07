@@ -6,6 +6,10 @@ let mobilisten_version = "v10.3.4-beta"
 let mobilisten_calls_version = "Calls-1.0.5-beta"
 let package = Package(
     name: "MobilistenBeta",
+    platforms: [
+        .iOS(.v13),
+        .macCatalyst(.v13)
+    ],
     products: [
         .library(
             name: "MobilistenBeta",
